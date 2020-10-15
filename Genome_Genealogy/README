@@ -1,0 +1,21 @@
+# PAUP and RAxML analysis for genome (GBS data) genealogy
+
+# 1 - formating of the SNP dataset (VCF format) in fasta format. 
+# Fasta format will be used as input to generate a NEXUS file for PAUP and as direct input for RAxML
+
+input = Dothi_1348.vcf
+command line = Format_VCF_to_Fasta.py
+output = Dothi_1348.fas
+
+
+# 2 - The maximum parsimony searche is done by running the Dothi_MP.nex file in PAUP
+
+input = Dothi_MP.nex
+command line = execute Dothi_MP.nex
+output = Dothi.tre and Dothi_MP.out.txt
+
+
+# - RAxML
+input = Dothi_1348.fas
+command line = raxmlHPC -T 6 -f a -m GTRGAMMA -p 56746 -x 98921 -# 100 -s Dothi_1348.fas -n tree
+outputs = RAXML_*.tree

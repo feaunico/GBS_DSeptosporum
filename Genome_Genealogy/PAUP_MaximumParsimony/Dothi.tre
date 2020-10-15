@@ -1,0 +1,34 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Apr 07 07:28:23 2020]
+[!
+>Consensus of 100 trees
+>
+>Source of trees from which consensus(es) calculated...
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1270 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        All characters are parsimony-informative
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>  Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = 1577184888
+>  Number of trees held at each step during stepwise addition = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR)
+>  Steepest descent option not in effect
+>  Initial 'MaxTrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  Topological constraints not enforced
+>  Trees are unrooted
+>
+>Search terminated prematurely (no room to store new trees)
+>   100 trees retained
+>   Time used = 00:01:28.0
+]
+	tree MajRule = [&U] (SRR1205213,(((SRR5420321,((SRR5420335,((ABTIC_10_1_Plate2_H01,((((((((ABTIC_14_2_Plate2_B02,BRSO_25_1_Plate1_C02,CLG_23_2_Plate1_C04,EM_Mt_11_Ne2_Plate2_D07,WCM_G308_1_1_Ne1_Plate2_E),(((BRSO_20_2_Plate1_A02,WMt_6_Ne_1_Dothis_merged),EM_Mt_14_Ne1_Dothis_merge),WMt_18_Ne1_Plate2_A06)),BRSO_9_1_Plate1_D01),BRCB_2_1_Plate1_B01),CLG_23_1_Plate1_B04),CLG_2_1_Dothis_merged),WMt_25_Ne1_Plate2_C06),((BRCB_1_2_Dothis_merged,(EM_Mt_3_Ne2_Plate2_A07,WMt_24_Ne1_Plate2_B06)),EM_Mt_25_Ne1_Plate2_A08))),(((((((FLNRO_18M_1_Plate1_D06,WC_23_1_Plate1_H10),WC_15_Ne1_Plate1_H09),PGTIS_P3_P23_Ne2_Plate1_A),WC_12_Ne2_Dothis_merged),((KC_11_1_Plate1_A12,((KC_16_1_Dothis_merged,WC_1_Ne1_Plate1_D08),WC_18_Ne1_Plate1_C10)),(KC_20_1_Dothis_merged,KC_9_1_Plate1_H11))),(KC_3_1_Plate1_E11,(((((PGTIS_P3_P4_Ne1_Dothis_me,WC_17_Ne1_Plate1_B10),WC_10_1_Plate1_D09),WC_25_Ne1_Plate1_B11),PGTIS_P3_U19_Ne2_Plate1_B),(WC_24_Ne1_Dothis_merged,WC_3_Ne1_Plate1_F08)))),KC_22_1_Plate1_H12))),(((((((((BRSO_14_other_Plate1_E01,FLNRO_6M_1_Plate1_B05),((FLNRO_15M_2_Plate1_A06,FLNRO_5M_2_Plate1_A05),(WMt_11_Ne1_Plate2_G05,WMt_9_Ne_2_Plate2_E05))),FLNRO_25M_1_Plate1_A07),FLNRO_24M_1_Dothis_merged),FLNRO_2_28M_Ne1_Dothis_me),FLNRO_4M_1_Plate1_H04),(BRSO_18_1_Dothis_merged,FLNRO_10M_1_Dothis_merged)),WC_21_Ne1_Plate1_F10),(CLG_20_1_Plate1_H03,WCM_G308_2_2_Ne1_Plate2_F)))),((((((((((((((BUC_11_Plate2_D11,(NY_16D_Plate2_E12,SM_3_1_Ne1_Plate2_H02)),SM_3_5_Ne2_Plate2_D03),(KSC_15B_Plate2_B10,SM_4_4_Ne1_Plate2_G03)),((BUC_14_Plate2_F11,SM_4_2_1_Plate2_F03),(((((BUC_5_Plate2_G11,SM_5_5_Ne1_Plate2_D04),SM_3_2_Ne1_Plate2_A03),(SD2_13_Plate2_F10,(SM_5_1_Ne1_Plate2_H03,SM_5_4_Ne1_Plate2_C04))),SM_5_2_Ne1_Plate2_A04),(((((FLNRO_14M_2_Plate1_H05,KC_17_1_Dothis_merged),KC_8_1_Plate1_G11),(KC_23_1_Plate2_A01,KC_25_1_Plate2_C01)),KC_13_1_Plate1_B12),WC_4_Ne1_Plate1_G08)))),SM_2_1_Ne2_Plate2_E02),((KLD_12_Dothis_merged,(SD2_14_Plate2_D10,SD2_18_Plate2_E10)),SUN_12D_Plate3_D02)),SM_5_3_Ne1_Plate2_B04),UNBC_PG_2B_Ne1_Plate2_F04),(((KSC_10B_Plate2_A10,SUN_9C_Plate3_B02),SUN_1D_Plate3_E02),(KSC_5A_Plate2_H09,NY_13B_Plate2_C12))),UNBC_PG_6A_Ne1_Plate2_B05),(((BUC_7_Plate2_H11,(SM_1_4_Ne1_Plate2_D02,SUN_3D_Plate3_A02)),NY_11B_Dothis_merged),(((KLD_10_Plate2_C11,SUN_2D_Plate3_C01),((((SM_3_3_Ne1_Dothis_merged,SUN_8A_Plate3_F02),(SUN_13D_Plate3_D01,SUN_5A_Plate3_H01)),SUN_11C_Plate3_F01),((SUN_15D_Plate3_G02,UNBC_PG_4B_Ne2_Plate2_H04),SUN_4C_Plate3_C02))),(((NY_1D_Plate2_F12,(NY_7E_Plate2_H12,(SM_4_1_1_Dothis_merged,SUN_10_Plate3_G01))),UNBC_PG_6B_Ne1_Dothis_mer),(UNBC_4B_1_Plate2_A05,UNBC_PG_1A_Ne1_Plate2_E04))))),((KLD_6_Plate2_B11,(SM_2_2_Ne1_Plate2_F02,SM_3_4_Ne1_Plate2_C03)),(NY_10C_Plate2_A12,SUN_14D_Plate3_E01))),((BUC_13_Plate2_E11,KLD_15A_Plate2_A11),SD2_10_Plate2_G10)),KSC_6A_Plate2_G09)),((((((SRR5420322,SRR5420331),SRR5420329),((SRR5420325,SRR5420326),(SRR5420330,SRR5420334))),SRR5420323),(SRR5420324,(SRR5420337,SRR5420338))),SRR5420336)),((SRR5420327,SRR5420328),(SRR5420332,SRR5420333)));
+end;
