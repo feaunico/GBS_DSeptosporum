@@ -1,0 +1,5 @@
+R script for PCA with SNPrelate 
+
+Input = Dothi_1491.vcf
+Output = D1491.gds and Dothi_PCA_vectors.xls (tab format)
+

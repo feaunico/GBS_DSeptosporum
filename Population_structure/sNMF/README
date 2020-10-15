@@ -1,0 +1,17 @@
+
+
+sNMF version used:  CL Mac and Linux version 1.2, 17/09/14
+
+
+
+# 1 - convert the VCF file in geno format with VCFtoGENO.py
+
+Input = Dothi_1491.vcf
+Command line = python2.7 VCFtoGENO.py
+Output = Dothi.geno
+
+# 2 - run sNMF in the sNMF folder; the folder must include the VCF file First
+
+Input = Dothi.geno
+Command line = python2.7 sNMF_run.py # will run 100 sNMF iteration for each k rom 1 to 10. 
+Output = Cross entropy graph in Cross_entropy.pdf and CLUMPP popfile from 1 to 9 (Dothi.1.popfile ...)

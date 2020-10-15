@@ -1,0 +1,5 @@
+R script for generating pairwise distances between isolates and NJ tree
+
+Input = Dothi_1491.vcf
+Output = Dothi_NJ_1000.tree (Newick format)
+
