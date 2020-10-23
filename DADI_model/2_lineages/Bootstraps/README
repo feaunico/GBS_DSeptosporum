@@ -1,0 +1,12 @@
+Bootstraping of the site frequency sprectrum (SFS) for estimation of DaDi parameters confidence intervals. 
+Parameters for each boostrap replicates are reestimated with using a Godambe Information Matrix
+
+1 - Bootstrap replicates
+
+Input : sfs.xls
+Command line: python2.7 Generate_random_sets.py
+Output: 100 sfs replicates - format .fs
+
+2 - estimation of confidence intervals
+Command line" python2.7 RunGodambe_3_pop_SIC.py with model SIC
+Uncertainty parameters are directly printed by the program; last number is theta
